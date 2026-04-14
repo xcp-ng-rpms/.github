@@ -1,109 +1,112 @@
-FREE PR DESCRIPTION HERE
+### Motivation
+
+<!-- Why should this change be accepted as an update to XCP-ng? Explain
+the motivation, the problem being solved, or the benefit to users or
+maintainers. -->
 
 ---
 
-### Work Item Reference
+### Related changes
 
-_If this change is related to a Vates internal task or issue, please provide a work item reference. Otherwise, leave this blank._
+<!-- When several PRs are part of a single changeset, you can either fill
+the form for each PR, or just once and link towards the PR with the filled
+form. In the reference PR, the one with the form filled in, list all related
+PRs. -->
 
-XCPNG-XXXXX
-
----
-
-### Why should this change be accepted as an update to XCP-ng?
-
-_Explain the motivation, problem being solved, or benefit to users or maintainers._
-
-YOUR TEXT HERE
+<!-- You can also mention here constraints between PRs, if useful:
+merge/build order, chained builds... -->
 
 ---
 
 ### Release Notes
 
+<!-- Good release notes explain what has changed, who is affected, and
+how it affects them. It is not a technical changelog. -->
+
 #### Explain the change for users
 
-_Write a user-facing explanation which will serve as a basis for public announcements._
-_Good release notes explain what changes, who is concerned, and how it affects them. It's not a technical changelog._
+<!-- Write a user-facing explanation that will serve as a basis for
+public announcements. -->
 
-YOUR TEXT HERE
 
-#### Do users or support need to be aware of anything specific related to the update?
+#### Do users or support need to be aware of anything specific?
 
-_Any manual steps, changes to default behavior, compatibility issues, etc._
-
-- [ ] Yes
-- [ ] No
-
-_If yes, provide details._
-
-YOUR TEXT HERE
+<!-- Include any manual steps, changes to default behavior, compatibility
+issues, etc. -->
 
 ---
 
 ### Testing and regression avoidance
 
-#### What tests have you done?
+<!-- Consider the change itself, but also regressions that could be caused
+unwillingly by the change, due to what components or code paths were touched. -->
 
-_1. Regarding the change itself._
+<!-- It's the right time to be paranoid. Consider what could go wrong in the
+worst case. -->
 
-YOUR TEXT HERE
+#### What tests have you performed?
 
-_2. Regarding potential regressions._
+<!-- Consider the change itself, but also regressions that could be caused unwillingly by the change -->
 
-YOUR TEXT HERE
+#### What manual tests should be performed after the build, and by whom?
 
-#### What tests in current test suites cover this change?
+<!-- Manual tests that should be repeated after the build (always consider that tests
+performed before the build are not definitive proof), plus tests that we should invite
+the user community to perform. -->
 
-_1. Regarding the change itself._
+#### What's covered by the xcp-ng-tests test suite?
 
-YOUR TEXT HERE
+<!-- If there are any tests that you'd like to run before the merge rather than after,
+mention them too. -->
 
-_2. Regarding potential regressions._
-
-YOUR TEXT HERE
-
-#### What tests were or will be added to CI for this change? If none, explain why.
-
-_1. Regarding the change itself._
-
-YOUR TEXT HERE
-
-_2. To ensure there are no regressions._
-
-YOUR TEXT HERE
-
-#### What other tests should reviewers or testers perform (after the build)?
-
-_1. Regarding the change itself._
-
-YOUR TEXT HERE
-
-_2. Regarding potential regressions._
-
-YOUR TEXT HERE
+#### What tests have been or will be added to CI for this change? If none, explain why.
 
 ---
 
 ### Documentation
 
-#### Should existing documentation be updated, or new documentation be added?
+#### Should existing documentation be updated?
 
 - [ ] Yes
 - [ ] No
 
-_If yes, explain what needs to be updated or added, and where. If no, explain why._
+<!-- If yes, explain what needs to be updated and where. If no,
+explain why.  Add the documentation update PRs if/when they are
+created. -->
 
-YOUR TEXT HERE
+#### Should new documentation be added?
+
+- [ ] Yes
+- [ ] No
+
+<!-- If yes, describe the required documentation. If no, explain why.
+Add the documentation update PRs if/when they are created. -->
 
 ---
 
 ### Xen Orchestra Impact
 
-#### Does this affect existing features in Xen Orchestra, or add features that could be useful for Xen Orchestra?
+#### Does this affect existing features in Xen Orchestra?
 
 - [ ] Yes
 - [ ] No
 
-_If yes, describe which features and how._
+<!-- If yes, describe which features are affected and how. -->
 
-YOUR TEXT HERE
+
+#### Are there added features that could be useful for Xen Orchestra?
+
+- [ ] Yes
+- [ ] No
+
+<!-- If yes, describe the added functionality and how XO could
+benefit. -->
+
+---
+### Work Item Reference
+
+<!-- If this change is related to a Vates internal task or issue,
+please provide a work item reference (e.g., XCPNG-0), Otherwise,
+remove this section -->
+
+---
