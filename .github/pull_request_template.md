@@ -103,6 +103,21 @@ Add the documentation update PRs if/when they are created. -->
 benefit. -->
 
 ---
+
+### Release Target
+
+- [ ] We already defined a release target with the release team.
+- [ ] I haven't talked with the release team, but I have a proposed target.
+- [ ] I'm not sure, let's talk about it.
+
+<!-- Unless you have chosen "I'm not sure", you can specify the wanted release
+target here: fast track, 8.3-next, 8.3-next+1, other specific target -->
+
+<!-- For members of Vates' XCP-ng team: the reference for this information is
+the related the work item's milestone. -->
+
+---
+
 ### Work Item Reference
 
 <!-- If this change is related to a Vates internal task or issue,
