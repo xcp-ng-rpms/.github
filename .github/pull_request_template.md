@@ -1,3 +1,11 @@
+### Work Item Reference
+
+<!-- If this change is related to a Vates internal task or issue,
+please provide a work item reference (e.g., XCPNG-0), Otherwise,
+remove this section and the next one. -->
+
+---
+
 ### Motivation
 
 <!-- Why should this change be accepted as an update to XCP-ng? Explain
@@ -6,7 +14,7 @@ maintainers. -->
 
 ---
 
-### Related changes
+### Related changes (optional)
 
 <!-- When several PRs are part of a single changeset, you can either fill
 the form for each PR, or just once and link towards the PR with the filled
@@ -80,7 +88,7 @@ created. -->
 - [ ] No
 
 <!-- If yes, describe the required documentation. If no, explain why.
-Add the documentation update PRs if/when they are created. -->
+Add the documentation update PRs if/when they are created.-->
 
 ---
 
@@ -115,13 +123,3 @@ target here: fast track, 8.3-next, 8.3-next+1, other specific target -->
 
 <!-- For members of Vates' XCP-ng team: the reference for this information is
 the related the work item's milestone. -->
-
----
-
-### Work Item Reference
-
-<!-- If this change is related to a Vates internal task or issue,
-please provide a work item reference (e.g., XCPNG-0), Otherwise,
-remove this section -->
-
----
