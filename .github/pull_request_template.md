@@ -8,6 +8,13 @@ remove this section and the next one. -->
 
 XCPNG-XXXX or N/A
 
+#### Product version and target branch
+
+<!-- When creating a PR, make sure that the PR you create is targeting the right
+branch (e.g. for a package in XCP-ng 8.3, use the 8.3 branch). -->
+
+- [ ] I've verified that the PR's target branch matches the intended product.
+
 #### Related changes (optional)
 
 <!--When several PRs are part of a single changeset, you can either fill
